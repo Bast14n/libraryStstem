@@ -45,7 +45,7 @@ public class BookController {
     @PreAuthorize("hasRole('ADMIN')")
     @PutMapping("/books/book/{id}")
     public void updateBook(@RequestBody Book book, @PathVariable String id){
-        
+
     }
 
 }
